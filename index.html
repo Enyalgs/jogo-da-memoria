@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Jogo da Memória</title>
+</head>
+<body>
+
+    <div class="login">
+        <header class="header-login">
+            <img src="assets/img/logo.png" alt="Jogo da Memória"class="logo">
+        </header>
+
+        <div class="main-login">
+            <form class="form-login">
+                <label for="name">Digite seu nome de usuário</label>
+                <input type="text" name="name" id="name" placeholder="Nome de usuário">
+                <button class="btn-name">Iniciar</button>
+            </form>
+        </div>
+
+        <footer class="footer-login">
+            <p>Desenvolvido por <a href="https://github.com/Enyalgs" target="_blank">Enya Santos</a>.</p>
+        </footer>
+    </div>
+
+    
+    <main class="container">
+        <h1>Bem vindo(a) ao jogo <span class="name-player"></span>.</h1>
+        <div class="pontuacao">
+            <p>Pontuação: <span class="pontos">0</span></h1>
+            <p>Tentativas: <span class="jogadas">0</span></h1>
+        </div>
+        <div class="card"></div>
+    </main>
+
+    <div class="playAgain">
+        <img src="assets/img/win.svg">
+        <p>Parabéns! Você venceu o jogo.</p>
+        <button class="btn-play-again">Jogar novamente</button>
+        <button class="btn-close">Sair</button>
+    </div>
+    
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
